@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    overflow: hidden; 
+    justify-content: center;
+    align-items: center; 
+    position: relative;
+}
+
+.board-container {
+    display: flex;
+    max-width: 640px;
+    max-height: 640px;
+    flex-wrap: wrap;
+    position: absolute;
+}
+
+
+.black-square {
+    border: 1px solid #000;
+    width: 80px;
+    height: 80px;
+    padding: 0;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.white-square {
+    border: 1px solid #000;
+    width: 80px;
+    height: 80px;
+    padding: 0;
+    background-color: #fffdd0;
+}
+
+.green-checker {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    border: 2px solid #006400;
+    background-color: #006400;
+}
+
+.red-checker {
+    height: 70px;
+    width: 70px;
+    border: 2px solid #880808;
+    border-radius: 50%;
+    background-color: #880808;
+}
